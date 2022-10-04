@@ -3,4 +3,3 @@ const lastIndexOf = (arr,elt,start= arr.length) => {
         if (arr[i] === elt) return i
     return -1
 }
-console.log(lastIndexOf([1, 2, 1, 2], 2))
