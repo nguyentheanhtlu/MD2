@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var QuanlithongtinNV_1 = require("./QuanlithongtinNV");
+var employeeManager_1 = require("./employeeManager");
+var em = new QuanlithongtinNV_1.Employee('ABC', 'male', '01-01-01', 'abc@gmail.com', 1234);
+var em2 = new QuanlithongtinNV_1.Employee('Khanh', 'male', '01-01-01', 'abc@gmail.com', 1234);
+var emManager = new employeeManager_1.EmployeeManager();
+emManager.addEmployee(em);
+emManager.addEmployee(em2);
+// console.log(emManager.showList());
+emManager.deleteEmployee(0);
+console.log(emManager.showList());
