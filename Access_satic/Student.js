@@ -1,5 +1,5 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
+exports.__esModule = true;
 exports.student = void 0;
 var student = /** @class */ (function () {
     function student(name, scoreMath, scoreEL, scoreLite) {
@@ -8,6 +8,15 @@ var student = /** @class */ (function () {
         this.scoreLite = scoreLite;
         this.scoreMath = scoreMath;
     }
+    student.prototype.getScoreMath = function () {
+        return this.scoreMath;
+    };
+    student.prototype.getScoreEL = function () {
+        return this.getScoreEL();
+    };
+    student.prototype.getScoreLite = function () {
+        return this.getScoreLite();
+    };
     student.prototype.getRank = function () {
         var arg = ((this.scoreMath + this.scoreEL + this.scoreLite) / 3);
         if (arg >= 8) {
