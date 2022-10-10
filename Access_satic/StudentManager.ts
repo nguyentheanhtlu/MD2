@@ -1,6 +1,6 @@
 import {Student} from "./Student";
 
-export class BTVN {
+export class StudentManager {
     arr1: Student[] = [];
     arr2: Student[] = [];
     arr3: Student[] = [];

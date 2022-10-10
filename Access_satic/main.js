@@ -1,5 +1,10 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var fdsd_1 = require("./fdsd");
-var student1 = new fdsd_1.student('trung', 8, 6, 7);
-console.log(student1.getRank());
+exports.__esModule = true;
+var StudentManager_1 = require("./StudentManager");
+var Student_1 = require("./Student");
+var student1 = new Student_1.Student('trung', 8, 9, 7);
+var student2 = new Student_1.Student('yen', 8, 9, 10);
+var studentManager = new StudentManager_1.StudentManager();
+studentManager.add(student1);
+studentManager.add(student2);
+console.log(studentManager.count());

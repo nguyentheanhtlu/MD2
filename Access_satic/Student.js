@@ -1,23 +1,23 @@
 "use strict";
 exports.__esModule = true;
-exports.student = void 0;
-var student = /** @class */ (function () {
-    function student(name, scoreMath, scoreEL, scoreLite) {
+exports.Student = void 0;
+var Student = /** @class */ (function () {
+    function Student(name, scoreMath, scoreEL, scoreLite) {
         this.name = name;
         this.scoreEL = scoreEL;
         this.scoreLite = scoreLite;
         this.scoreMath = scoreMath;
     }
-    student.prototype.getScoreMath = function () {
+    Student.prototype.getScoreMath = function () {
         return this.scoreMath;
     };
-    student.prototype.getScoreEL = function () {
-        return this.getScoreEL();
+    Student.prototype.getScoreEL = function () {
+        return this.scoreEL;
     };
-    student.prototype.getScoreLite = function () {
-        return this.getScoreLite();
+    Student.prototype.getScoreLite = function () {
+        return this.scoreLite;
     };
-    student.prototype.getRank = function () {
+    Student.prototype.getRank = function () {
         var arg = ((this.scoreMath + this.scoreEL + this.scoreLite) / 3);
         if (arg >= 8) {
             return 'loai gioi';
@@ -29,6 +29,6 @@ var student = /** @class */ (function () {
             return 'tb';
         }
     };
-    return student;
+    return Student;
 }());
-exports.student = student;
+exports.Student = Student;

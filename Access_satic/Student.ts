@@ -1,4 +1,4 @@
-export class student{
+export class Student{
     private name : string;
 
    private scoreMath: number;
@@ -16,11 +16,13 @@ export class student{
    getScoreMath():number{
        return this.scoreMath;
    }
+
    getScoreEL(): number{
-       return this.getScoreEL()
+       return this.scoreEL;
    }
+
    getScoreLite(): number{
-       return  this.getScoreLite()
+       return  this.scoreLite
    }
 
    getRank(): string {
