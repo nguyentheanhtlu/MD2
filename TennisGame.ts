@@ -3,12 +3,12 @@ export class TennisGame {
 
     getScore(player1Name: string,
              player2Name: string,
-             m_score1: number,
-             m_score2: number) {
+             score1: number,
+             score2: number) {
         let tempScore = 0;
 
-        if (m_score1 == m_score2) {
-            switch (m_score1) {
+        if (score1 == score2) {
+            switch ( score1) {
                 case 0:
                     this.score = "Love-All";
                     break;
@@ -26,18 +26,18 @@ export class TennisGame {
                     break;
 
             }
-        } else if (m_score1 >= 4 || m_score2 >= 4) {
-            let minusResult = m_score1 - m_score2;
+        } else if (score1 >= 4 || score2 >= 4) {
+            let minusResult = score1 - score2;
             if (minusResult == 1) this.score = "Advantage player1";
             else if (minusResult == -1) this.score = "Advantage player2";
             else if (minusResult >= 2) this.score = "Win for player1";
             else this.score = "Win for player2";
         } else {
             for (let i = 1; i < 3; i++) {
-                if (i == 1) tempScore = m_score1;
+                if (i == 1) tempScore = score1;
                 else {
                     this.score += "-";
-                    tempScore = m_score2;
+                    tempScore = score2;
                 }
                 switch (tempScore) {
                     case 0:
