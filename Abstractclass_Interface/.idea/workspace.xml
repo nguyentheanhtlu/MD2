@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6cb89d00-39df-418a-bd00-1a71cf0600fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../TypeScript00/typescript-error-demo" beforeDir="false" afterPath="$PROJECT_DIR$/../TypeScript00/typescript-error-demo" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$/typescript-shape-oop" source="main" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/typescript-shape-oop" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TH_interface/Circle.ts" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FvSODhWuogYvrKXQORnBTtdD1q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/THE ANH/Desktop/MD2",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\THE ANH\Desktop\MD2\Abstractclass_Interface" />
+      <recent name="C:\Users\THE ANH\Desktop\MD2\Abstractclass_Interface\AbstractClass" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cb89d00-39df-418a-bd00-1a71cf0600fc" name="Changes" comment="" />
+      <created>1665371030448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665371030448</updated>
+      <workItem from="1665371031679" duration="435000" />
+      <workItem from="1665371478593" duration="8124000" />
+      <workItem from="1665392708649" duration="1475000" />
+      <workItem from="1665394226690" duration="26000" />
+      <workItem from="1665394272423" duration="78000" />
+      <workItem from="1665394362974" duration="123000" />
+      <workItem from="1665394496503" duration="24000" />
+      <workItem from="1665394534425" duration="53000" />
+      <workItem from="1665451980925" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/AbstractClass/Chicken.js" />
+        <option value="$PROJECT_DIR$/AbstractClass/Tiger.js" />
+        <option value="$PROJECT_DIR$/AbstractClass/index.js" />
+        <option value="$PROJECT_DIR$/AbstractClass/Animal.js" />
+        <option value="$PROJECT_DIR$/InterfaceClass/Edible.js" />
+        <option value="$PROJECT_DIR$/Fruits/Apple.js" />
+        <option value="$PROJECT_DIR$/Fruits/Orange.js" />
+        <option value="$PROJECT_DIR$/AbstractClass/Fruit.js" />
+        <option value="$PROJECT_DIR$/TH_interface/Comparable.js" />
+        <option value="$PROJECT_DIR$/TH_interface/ComparableCircle.js" />
+        <option value="$PROJECT_DIR$/TH_interface/Circle.js" />
+        <option value="$PROJECT_DIR$/TH_interface/Main.js" />
+        <option value="$PROJECT_DIR$/Colorable/Rectangle.js" />
+        <option value="$PROJECT_DIR$/Colorable/InterfaceColorable.js" />
+        <option value="$PROJECT_DIR$/Colorable/Square.js" />
+        <option value="$PROJECT_DIR$/Colorable/main.js" />
+        <option value="$PROJECT_DIR$/Colorable/Circle.js" />
+        <option value="$PROJECT_DIR$/Colorable/Shape.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
